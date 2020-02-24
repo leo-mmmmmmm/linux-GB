@@ -1,0 +1,6 @@
+Чтобы не выводилось не нужное нам сначала выключаем все привественные сообщения
+>> sudo chmod -x /etc/update-motd.d/
+Затем включаем, что нам надо
+>> sudo chmod +x /etc/update-motd.d/00-header
+>> sudo chmod +x /etc/update-motd.d/90-updates-available
+Как решить подпункт я не знаю, потому что в Match нельзя использовать UsePam и PritnLasLog, которые и отвечают за выведение данных сообщений.

@@ -1,0 +1,8 @@
+Сначала задаём пароль пользователю root
+>> passwd root
+Далее открываем настройки ssh
+>> vi /etc/ssh/sshd_config
+Убираем комметарий со строки и дописываем yes
+>> PermitRootLogin yes
+Перезапускаем ssh
+>> service ssh restart
