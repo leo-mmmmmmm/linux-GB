@@ -1,0 +1,5 @@
+Создаём пользователя.
+>> useradd -m -s /bin/bash ivanov
+Задаём пароль
+>> passwd ivanov
+В файле /etc/passwd меняем UID и GID ivanov на 0. Теперь ivanov обладает правами root.

@@ -5,4 +5,4 @@
 Убираем комметарий со строки и дописываем yes
 >> PermitRootLogin yes
 Перезапускаем ssh
->> service ssh restart
+>> systemctl restart sshd

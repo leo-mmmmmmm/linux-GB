@@ -1,0 +1,7 @@
+Добавляем права заданные в условии символьным способом.
+>> chmod ua-r file1
+>> chmod u-w file1
+>> chmod u-wr file2
+В численном виде.
+>> chmod 644 file1
+>> chmod 600 file2
